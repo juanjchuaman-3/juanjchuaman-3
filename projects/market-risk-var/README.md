@@ -1,42 +1,48 @@
 # Market Risk — Value at Risk (VaR)
 
-A compact market-risk project illustrating parametric and historical Value at Risk for a simplified portfolio.
+A compact market-risk project comparing **parametric VaR** and **historical VaR** using an illustrative portfolio.
 
-## Objective
+![VaR distribution](outputs/var_distribution.svg)
 
-Estimate potential portfolio losses over a chosen confidence level and holding period, while making the assumptions explicit.
+## Base case
 
-## Methods
+- Portfolio value: 10,000,000
+- Daily volatility: 0.12%
+- Confidence level: 95%
+- Holding period: 10 days
 
-### Parametric VaR
+### Results
 
-Assumes returns are approximately normally distributed.
+- Parametric 10-day VaR: approximately **62,418**
+- Historical 1-day VaR: approximately **28,000**
+
+## Methodology
+
+Parametric VaR assumes normally distributed returns and scales daily volatility by the square root of time.
 
 ```text
-VaR = Portfolio Value × z × σ × √t
+VaR = Portfolio Value × z × Daily Volatility × √Holding Period
 ```
 
-Where:
-- `z` is the standard-normal critical value,
-- `σ` is daily volatility,
-- `t` is the holding period in days.
-
-### Historical VaR
-
-Uses empirical portfolio returns and selects the relevant lower-tail percentile without imposing a normal distribution.
+Historical VaR instead ranks the realized losses in the illustrative return sample and selects the loss corresponding to the chosen confidence level.
 
 ## Files
 
-- `var_analysis.py` — illustrative implementation of parametric and historical VaR.
+- `var_analysis.py` — VaR calculation functions.
+- `var_dashboard.py` — exports outputs and generates a return-distribution chart.
+- `outputs/var_distribution.svg` — visual risk output.
+- `requirements.txt` — dependencies.
+
+## Run locally
+
+```bash
+pip install -r requirements.txt
+python var_analysis.py
+python var_dashboard.py
+```
 
 ## What this demonstrates
 
-- Market-risk measurement
-- Volatility scaling
-- Confidence-level interpretation
-- Historical simulation
-- Risk-reporting logic
+Market risk · volatility · parametric VaR · historical VaR · holding-period scaling · Python · risk visualization
 
-## Disclaimer
-
-This project is educational. The data and assumptions are illustrative and are not investment recommendations.
+> The return series and portfolio value are illustrative and intended only for educational and portfolio use.
