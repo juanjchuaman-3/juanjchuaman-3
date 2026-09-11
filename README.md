@@ -10,6 +10,19 @@ I am an economist focused on **financial planning, corporate finance, valuation,
 
 I currently work at **MiBanco**, where I analyze operating expenses, budget deviations, forecasts and management indicators. In parallel, I teach finance and economics at university level and continue developing applied projects in valuation, investments and quantitative finance.
 
+## Featured projects
+
+### [Financial Modeling & DCF Valuation](projects/financial-modeling-dcf)
+A discounted cash flow valuation project using projected FCFF, WACC, terminal value and valuation sensitivity analysis. Includes a self-contained Python model with illustrative assumptions.
+
+### [FP&A — Budget, Variance Analysis & Forecasting](projects/fpna-budget-forecast)
+A practical FP&A project covering budget vs. actual analysis, forecast error, variance measurement and management-oriented reporting using synthetic operating data.
+
+### [Market Risk — Value at Risk](projects/market-risk-var)
+An educational market-risk project implementing parametric and historical VaR, confidence-level interpretation and holding-period scaling.
+
+> All public portfolio projects use illustrative or synthetic data and exclude confidential employer or client information.
+
 ## Financial experience
 
 - Manage and analyze **OPEX reporting by service, supplier and cost center** for an annual budget of approximately **S/ 3 million**.
@@ -76,17 +89,11 @@ Teaching reinforces the way I approach financial problems: understand the underl
 - **Capital Markets Specialization** — SMV
 - **Applied Econometrics, Data & AI** — Escuela Global
 
-## Portfolio roadmap
+## Next portfolio additions
 
-This GitHub is being developed as a practical portfolio at the intersection of **finance, economics and analytics**.
-
-Planned projects include:
-
-1. **DCF Valuation & Financial Modeling** — integrated statements, FCF, WACC, terminal value and sensitivities.
-2. **FP&A Budget & Forecasting** — actual vs. budget, variance drivers, rolling forecasts and KPI dashboards.
-3. **Fixed Income & Bond Analytics** — valuation, duration, convexity and interest-rate sensitivity.
-4. **Portfolio & Market Risk** — returns, volatility, diversification and Value at Risk.
-5. **Financial Analytics with Python** — reproducible analysis, automation and visualization.
+- Fixed Income & Bond Analytics — valuation, duration, convexity and interest-rate sensitivity.
+- Portfolio Analytics — risk/return, diversification and performance metrics.
+- Financial Analytics with Python — reproducible analysis, automation and visualization.
 
 ## Professional interests
 
