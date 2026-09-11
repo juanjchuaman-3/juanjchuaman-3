@@ -13,13 +13,16 @@ I currently work at **MiBanco**, where I analyze operating expenses, budget devi
 ## Featured projects
 
 ### [Financial Modeling & DCF Valuation](projects/financial-modeling-dcf)
-A discounted cash flow valuation project using projected FCFF, WACC, terminal value and valuation sensitivity analysis. Includes a self-contained Python model with illustrative assumptions.
+Five-year projected financial model covering Revenue, EBITDA, EBIT, NOPAT, CAPEX, NWC and FCFF, followed by DCF valuation, WACC / terminal-growth sensitivity analysis and visual outputs.
 
 ### [FP&A — Budget, Variance Analysis & Forecasting](projects/fpna-budget-forecast)
-A practical FP&A project covering budget vs. actual analysis, forecast error, variance measurement and management-oriented reporting using synthetic operating data.
+A practical FP&A case covering budget vs. actual analysis, forecast error, variance measurement and management-oriented reporting with reproducible dashboard outputs.
 
 ### [Market Risk — Value at Risk](projects/market-risk-var)
-An educational market-risk project implementing parametric and historical VaR, confidence-level interpretation and holding-period scaling.
+An educational market-risk project implementing parametric and historical VaR, confidence-level interpretation, holding-period scaling and risk visualization.
+
+### [Fixed Income & Bond Analytics](projects/fixed-income-bond-analytics)
+Bond pricing and interest-rate-risk analysis using YTM, Macaulay duration, modified duration, convexity and the price-yield relationship.
 
 > All public portfolio projects use illustrative or synthetic data and exclude confidential employer or client information.
 
@@ -91,9 +94,9 @@ Teaching reinforces the way I approach financial problems: understand the underl
 
 ## Next portfolio additions
 
-- Fixed Income & Bond Analytics — valuation, duration, convexity and interest-rate sensitivity.
 - Portfolio Analytics — risk/return, diversification and performance metrics.
 - Financial Analytics with Python — reproducible analysis, automation and visualization.
+- Derivatives — forwards, hedging logic and scenario analysis.
 
 ## Professional interests
 
