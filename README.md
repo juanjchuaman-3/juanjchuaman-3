@@ -1,62 +1,99 @@
 # Juan Carlos Huamán
 
-**Economics & Finance | Corporate Finance | FP&A | Capital Markets | Data Analytics**
+### Financial Planning & Analysis · Corporate Finance · Capital Markets · Financial Analytics
 
-Lima, Peru
+📍 Lima, Peru  
+💼 Financial Services Analyst at MiBanco  
+🎓 Economist | University Teaching | Corporate Finance & Capital Markets
 
-I am an Economics and Finance professional focused on turning financial and operational data into better business decisions. My main interests are **corporate finance, financial planning & analysis (FP&A), valuation, capital markets, forecasting, and financial analytics**.
+I am an economist focused on **financial planning, corporate finance, valuation, capital markets, and data-driven decision making**. My experience combines FP&A-oriented analysis, OPEX and budget control, forecasting, financial modeling, business intelligence, and financial-market analysis.
 
-I currently combine professional experience in financial and operational analysis with university teaching, while continuing to deepen my skills in financial modeling, investments, and data-driven decision making.
+I currently work at **MiBanco**, where I analyze operating expenses, budget deviations, forecasts and management indicators. In parallel, I teach finance and economics at university level and continue developing applied projects in valuation, investments and quantitative finance.
 
-## Areas of focus
+## Financial experience
 
-- Corporate Finance & Valuation
-- Financial Planning & Analysis (FP&A)
-- Budget vs. Actual Analysis
-- Forecasting & Financial Modeling
-- Capital Markets & Investments
-- Financial Statement Analysis
-- Business Intelligence & Data Visualization
+- Manage and analyze **OPEX reporting by service, supplier and cost center** for an annual budget of approximately **S/ 3 million**.
+- Perform **actual vs. budget, month-over-month and year-over-year variance analysis**, identifying and communicating the main drivers of deviations.
+- Built and maintain a **5-year forecasting model** covering six services and nine suppliers to support vehicle renewal, rental and continuity decisions.
+- Participate in **monthly closings, provisions, reconciliations and SOX controls**.
+- Develop management dashboards in **Power BI** covering expenditure, savings, SLA compliance, service times and operational indicators.
+- Built integrated financial models with projected **revenue, costs, P&L, balance sheet, working capital, CAPEX and free cash flow**, applying **DCF, WACC, scenario and sensitivity analysis**.
+
+## Core areas
+
+**FP&A & Corporate Finance**  
+Budgeting · OPEX Control · Variance Analysis · Forecasting · Rolling Forecast · P&L · Cash Flow · DCF · WACC · Scenario Analysis · Sensitivity Analysis
+
+**Financial Analysis & Capital Markets**  
+Financial Statement Analysis · IFRS · ROE · ROA · Margins · Liquidity · Leverage · Fixed Income · Equities · Portfolio Analysis · Market Risk
+
+**Data & Reporting**  
+Power BI · KPI Dashboards · Data Cleaning · Management Reporting · Automation · Financial Data Analysis
 
 ## Tools
 
-**Financial analysis**  
-Excel · Financial Modeling · Budgeting · Forecasting · KPI Analysis
+| Finance & Markets | Data & Analytics | Enterprise |
+|---|---|---|
+| Bloomberg | Excel | SAP FI |
+| Capital IQ | Power BI | SAP S/4HANA |
+| Financial Modeling | Python | SOX Controls |
+| DCF / WACC | SQL | Reconciliations |
+| Portfolio Analysis | R · Stata | Management Reporting |
 
-**Data & BI**  
-Power BI · Data Cleaning · Dashboard Design · Management Reporting
+## Applied financial modeling
 
-**Developing further**  
-Python for Finance · SQL · Quantitative Analysis · Portfolio Analytics
+Through **Económica-PUCP**, I have worked on financial modeling and valuation projects involving **AUNA** and **Sociedad Minera Cerro Verde**, using audited financial statements and market-data platforms such as Bloomberg and Capital IQ.
 
-## What I am building here
+My work includes:
 
-This GitHub will document practical projects that combine finance, economics, and analytics. My portfolio roadmap includes:
+- Integrated financial statement projections
+- Free cash flow modeling
+- Cost of capital estimation
+- DCF valuation
+- Scenario and sensitivity analysis
+- Profitability, liquidity, leverage and efficiency analysis
 
-### Financial Modeling & Valuation
-DCF valuation, free cash flow projections, WACC, terminal value, scenario analysis, and sensitivity analysis.
+## Capital markets
 
-### FP&A and Forecasting
-Budget vs. actual analysis, variance drivers, rolling forecasts, KPI dashboards, and decision-oriented management reporting.
+I completed the **XXVII Programa de Especialización del Mercado de Valores – SMV**, finishing **Top 10** with a final grade of **17/20**. The program covered financial instruments, portfolio management, Bloomberg, financial statement analysis and corporate finance.
 
-### Capital Markets
-Fixed-income valuation, portfolio analysis, market risk, Value at Risk (VaR), and investment analytics.
+I also participated in the **Bloomberg Global Trading Challenge**, managing a simulated investment portfolio and analyzing market information, risk and return through Bloomberg Terminal.
 
-### Financial Data Analytics
-Python-based financial analysis, automated reporting, visualization, and reproducible analytical workflows.
+## Teaching
 
-## Professional perspective
+I teach university practice sessions in:
 
-I am particularly interested in roles where finance and analytics intersect: **Corporate Finance, FP&A, Investments, and Capital Markets**.
+- Financial Mathematics
+- Corporate Finance
+- Introduction to Microeconomics
 
-My goal is not only to build models, but to explain the financial logic behind them, identify the key drivers of performance, and translate results into actionable business insights.
+Teaching reinforces the way I approach financial problems: understand the underlying economics, structure the model, validate assumptions and translate results into clear conclusions.
 
-## Teaching & continuous learning
+## Education & continuous learning
 
-Alongside my professional work, I teach university-level finance and economics topics, including financial mathematics and corporate finance. Teaching strengthens the way I approach technical problems: understand the concept, structure the analysis, validate the numbers, and communicate the conclusion clearly.
+- **Economics** — Universidad Peruana de Ciencias Aplicadas (UPC)
+- **Corporate Finance Specialization** — PUCP
+- **Capital Markets Specialization** — SMV
+- **Applied Econometrics, Data & AI** — Escuela Global
 
-I am continuously developing my knowledge in corporate finance, investments, financial risk, derivatives, and quantitative methods.
+## Portfolio roadmap
+
+This GitHub is being developed as a practical portfolio at the intersection of **finance, economics and analytics**.
+
+Planned projects include:
+
+1. **DCF Valuation & Financial Modeling** — integrated statements, FCF, WACC, terminal value and sensitivities.
+2. **FP&A Budget & Forecasting** — actual vs. budget, variance drivers, rolling forecasts and KPI dashboards.
+3. **Fixed Income & Bond Analytics** — valuation, duration, convexity and interest-rate sensitivity.
+4. **Portfolio & Market Risk** — returns, volatility, diversification and Value at Risk.
+5. **Financial Analytics with Python** — reproducible analysis, automation and visualization.
+
+## Professional interests
+
+I am particularly interested in opportunities involving **FP&A, Corporate Finance, Investments and Capital Markets**, especially where financial modeling and analytics are used to support strategic decisions.
+
+📎 [LinkedIn](https://www.linkedin.com/in/juan-huamán-b44237249)
 
 ---
 
-> This profile is a work in progress. New financial modeling and analytics projects will be added progressively.
+*Building a finance portfolio focused on rigorous analysis, transparent assumptions and decision-oriented insights.*
