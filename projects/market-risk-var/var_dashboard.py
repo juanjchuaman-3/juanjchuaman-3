@@ -41,7 +41,7 @@ def save_outputs(output_dir: Path) -> None:
     plt.ylabel("Frequency")
     plt.legend()
     plt.tight_layout()
-    plt.savefig(output_dir / "var_distribution.png", dpi=160)
+    plt.savefig(output_dir / "var_distribution.svg", dpi=160)
     plt.close()
 
 
