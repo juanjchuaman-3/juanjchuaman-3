@@ -1,27 +1,27 @@
 # Fixed Income & Bond Analytics
 
-A practical fixed-income project covering **bond pricing, yield-to-maturity sensitivity, Macaulay duration, modified duration and convexity**.
+A compact bond model for pricing and interest-rate sensitivity.
+
+![Bond price-yield relationship](outputs/bond_price_yield.svg)
 
 ## Base case
 
-Illustrative bond assumptions:
-
 - Face value: 1,000
-- Annual coupon rate: 6.0%
-- Yield to maturity: 7.0%
+- Annual coupon: 6.0%
+- YTM: 7.0%
 - Maturity: 5 years
 - Coupon frequency: semiannual
 
-Base-case outputs:
+The model returns:
 
-- Bond price: **958.42**
+- Price: **958.42**
 - Macaulay duration: **4.38 years**
 - Modified duration: **4.23 years**
 - Convexity: **21.46**
 
-## Methodology
+## Method
 
-The project discounts each contractual cash flow at the periodic YTM, then measures interest-rate sensitivity using duration and convexity.
+Each contractual cash flow is discounted at the periodic YTM. Duration measures first-order price sensitivity and convexity captures the curvature of the price-yield relationship.
 
 ```text
 Bond Price = Σ CF_t / (1 + y/m)^t
@@ -29,18 +29,16 @@ Macaulay Duration = Σ[t × PV(CF_t)] / Price
 Modified Duration = Macaulay Duration / (1 + y/m)
 ```
 
-Convexity is used to improve the linear duration approximation when yield changes are larger.
-
 ## Files
 
 - `bond_analytics.py` — pricing, duration, convexity and price-yield curve.
-- `outputs/bond_price_yield.svg` — visual price-yield relationship.
-- `requirements.txt` — Python dependencies.
+- `outputs/bond_price_yield.svg` — price-yield chart.
 
-## Interpretation
+## Run
 
-The price-yield curve is downward sloping and convex: when market yields rise, the present value of fixed bond cash flows falls. Duration summarizes first-order sensitivity, while convexity captures the curvature of that relationship.
+```bash
+pip install -r requirements.txt
+python bond_analytics.py
+```
 
-## Disclaimer
-
-All inputs are illustrative and intended only for educational and portfolio purposes.
+Inputs are illustrative and intended for portfolio and study purposes.
