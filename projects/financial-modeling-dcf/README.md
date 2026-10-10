@@ -1,10 +1,10 @@
 # Financial Modeling & DCF Valuation
 
-A corporate-finance case that converts operating assumptions into a five-year projected model and discounted cash flow valuation.
+A five-year corporate-finance model built from operating assumptions through free cash flow and equity value.
 
 ![DCF forecast](outputs/dcf_forecast.svg)
 
-## Base-case assumptions
+## Base assumptions
 
 - Revenue growth: 6.0%
 - EBIT margin: 15.0%
@@ -16,9 +16,9 @@ A corporate-finance case that converts operating assumptions into a five-year pr
 - Terminal growth: 3.0%
 - Net debt: 220
 
-## Projected model
+## Model logic
 
-The model projects **Revenue, EBITDA, EBIT, taxes, NOPAT, D&A, CAPEX, NWC and FCFF** before discounting the free cash flows.
+The forecast covers Revenue, EBITDA, EBIT, taxes, NOPAT, D&A, CAPEX, NWC and FCFF.
 
 ```text
 NOPAT = EBIT × (1 - Tax Rate)
@@ -28,37 +28,25 @@ Enterprise Value = PV(Explicit FCFF) + PV(Terminal Value)
 Equity Value = Enterprise Value - Net Debt
 ```
 
-### Base-case valuation
+Base-case enterprise value is **1,403.32** and equity value is **1,183.32** in illustrative monetary units.
 
-- Enterprise value: **1,403.32**
-- Equity value: **1,183.32**
+## Sensitivity
 
-## Sensitivity analysis
-
-The model evaluates equity value across WACC values from 9.0% to 12.0% and terminal growth rates from 2.0% to 4.0%. The base case at **10.5% WACC / 3.0% g** returns **1,183.32**.
-
-The full matrix is available at `outputs/dcf_sensitivity.csv`.
+The model recalculates equity value across WACC values from 9.0% to 12.0% and terminal growth from 2.0% to 4.0%. I use this table to see how much of the result depends on cost of capital and the terminal-value assumption.
 
 ## Files
 
-- `dcf_model.py` — compact DCF implementation.
-- `dcf_case.py` — expanded projected financial model, valuation, sensitivity matrix and chart generation.
-- `outputs/dcf_forecast.csv` — projected operating and FCFF schedule.
-- `outputs/dcf_sensitivity.csv` — WACC / terminal-growth sensitivity matrix.
-- `outputs/dcf_forecast.svg` — portfolio-ready visual output.
-- `requirements.txt` — dependencies.
+- `dcf_case.py` — full forecast, valuation, sensitivity matrix and chart generation.
+- `dcf_model.py` — shorter implementation of the same DCF logic.
+- `outputs/dcf_forecast.csv` — forecast schedule.
+- `outputs/dcf_sensitivity.csv` — WACC / terminal-growth sensitivity.
+- `outputs/dcf_forecast.svg` — forecast chart.
 
-## Run locally
+## Run
 
 ```bash
 pip install -r requirements.txt
 python dcf_case.py
 ```
 
-The script generates CSV outputs and PNG charts in an `outputs` folder.
-
-## What this demonstrates
-
-Financial statement projection · FCFF · DCF · WACC · terminal value · scenario analysis · valuation sensitivity · Python-based financial modeling
-
-> All assumptions are illustrative and contain no confidential employer or client information.
+All assumptions are illustrative and no confidential employer or client data is used.
