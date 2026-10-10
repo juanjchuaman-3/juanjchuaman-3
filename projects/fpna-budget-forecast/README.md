@@ -1,29 +1,28 @@
 # FP&A — Budget, Forecast & Variance Analysis
 
-A practical FP&A case focused on **budget vs. actual analysis, forecast accuracy and management reporting**.
+A small FP&A case built around one practical question: where is actual spending moving away from plan?
 
 ![FP&A dashboard](outputs/fpna_dashboard.svg)
 
-## Objective
+## Analysis
 
-Translate a monthly budget / forecast / actual dataset into decision-oriented variance analysis.
+The dataset compares monthly budget, forecast and actual values and calculates:
 
-## Metrics
+- absolute variance vs. budget;
+- variance % vs. budget;
+- forecast error;
+- forecast error %;
+- total budget vs. total actual.
 
-- Absolute variance vs. budget
-- Variance % vs. budget
-- Forecast error
-- Forecast error %
-- Total budget vs. total actual
+The output is meant to support the next management question rather than stop at the calculation: which month or cost movement should be investigated first?
 
 ## Files
 
-- `fpna_analysis.py` — builds the illustrative dataset and calculates variances.
-- `fpna_dashboard.py` — exports the analysis and generates visual outputs.
-- `outputs/fpna_dashboard.svg` — portfolio-ready trend visualization.
-- `requirements.txt` — Python dependencies.
+- `fpna_analysis.py` — illustrative dataset and variance calculations.
+- `fpna_dashboard.py` — output export and chart generation.
+- `outputs/fpna_dashboard.svg` — trend chart.
 
-## Run locally
+## Run
 
 ```bash
 pip install -r requirements.txt
@@ -31,12 +30,4 @@ python fpna_analysis.py
 python fpna_dashboard.py
 ```
 
-## Management interpretation
-
-The analysis is designed to answer three FP&A questions: **Where did spending deviate from plan? How accurate was the latest forecast? Which months should management investigate first?**
-
-## What this demonstrates
-
-Budgeting · Actual vs. Budget · Forecasting · Variance Analysis · Management Reporting · Python · Data Visualization
-
-> All data is illustrative and contains no confidential employer information.
+All figures are illustrative and contain no employer information.

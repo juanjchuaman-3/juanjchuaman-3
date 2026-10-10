@@ -70,7 +70,7 @@ def save_outputs(output_dir: Path):
     plt.legend()
     plt.grid(alpha=0.25)
     plt.tight_layout()
-    plt.savefig(output_dir / "bond_price_yield.png", dpi=160)
+    plt.savefig(output_dir / "bond_price_yield.svg", dpi=160)
     plt.close()
 
     return metrics

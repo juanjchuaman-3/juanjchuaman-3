@@ -112,7 +112,7 @@ def save_outputs(forecast: pd.DataFrame, sensitivity: pd.DataFrame, output_dir: 
     plt.legend()
     plt.grid(alpha=0.25)
     plt.tight_layout()
-    plt.savefig(output_dir / "dcf_forecast.png", dpi=160)
+    plt.savefig(output_dir / "dcf_forecast.svg", dpi=160)
     plt.close()
 
     plt.figure(figsize=(7, 4.5))
